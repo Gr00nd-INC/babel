@@ -16,8 +16,8 @@
   "main": "./lib/index.js",
   "dependencies": {
     "@babel/code-frame": "workspace:^",
-    "@babel/core": "workspace:^",
-    "@babel/helper-check-duplicate-nodes": "workspace:^",
+    "@babel/core": "7.26.10",
+    "@babel/helper-check-duplicate-nodes": "7.17.9",
     "@babel/helper-fixtures": "workspace:^",
     "lru-cache": "condition:BABEL_8_BREAKING ? ^7.14.1 : ^5.1.1"
   },
