@@ -90,12 +90,12 @@
     "@babel/plugin-transform-unicode-regex": "workspace:^",
     "@babel/plugin-transform-unicode-sets-regex": "workspace:^",
     "@babel/preset-modules": "0.1.6-no-external-plugins",
-    "@babel/types": "workspace:^",
+    "@babel/types": "7.0.0",
     "babel-plugin-polyfill-corejs2": "^0.4.5",
     "babel-plugin-polyfill-corejs3": "^0.8.3",
     "babel-plugin-polyfill-regenerator": "^0.5.2",
     "core-js-compat": "^3.31.0",
-    "semver": "condition:BABEL_8_BREAKING ? ^7.3.4 : ^6.3.1"
+    "semver": "1.0.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"
